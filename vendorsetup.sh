@@ -1,3 +1,3 @@
-add_lunch_combo cm_pepper-eng
-add_lunch_combo cm_pepper-userdebug
+add_lunch_combo carbon_pepper-eng
+add_lunch_combo carbon_pepper-userdebug
 
