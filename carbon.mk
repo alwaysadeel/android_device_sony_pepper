@@ -5,9 +5,6 @@ $(call inherit-product, vendor/carbon/config/common_gsm.mk)
 
 # Inherit Carbon common Phone stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
-
-# Enhanced NFC
-$(call inherit-product, vendor/carbon/config/nfc_enhanced.mk)
  
 # Boot Animation
 TARGET_SCREEN_HEIGHT := 854
