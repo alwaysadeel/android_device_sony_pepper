@@ -85,11 +85,7 @@ PRODUCT_COPY_FILES += \
 	
 $(call inherit-product, $(LOCAL_PATH)/prebuilt/resources-480x854.mk)
 
-# Bootanimation
-PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/../../../vendor/cm/prebuilt/common/bootanimation/480.zip:system/media/bootanimation.zip
-   
-   
+
 # Device specific USB configuration script
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/config/init.st-ericsson.usb.rc:root/init.st-ericsson.usb.rc
 
