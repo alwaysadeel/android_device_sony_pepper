@@ -78,6 +78,9 @@ PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/config/cflashlib.cfg:system/etc/cflashlib.cfg \
         $(LOCAL_PATH)/config/flashled_param_config.cfg:system/etc/flashled_param_config.cfg
 
+#TWRP
+PRODUCT_COPY_FILES += \
+$(LOCAL_PATH)/config/twrp.fstab:recovery/root/etc/twrp.fstab
 
 # Device specific bootlogo and charging animation
 PRODUCT_COPY_FILES += \
